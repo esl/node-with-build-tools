@@ -1,4 +1,4 @@
-FROM node:10.23.0-alpine3.11 AS builder
+FROM node:14.15.1-alpine3.12
 
 RUN apk --no-cache add shadow \                                                                   
     gcc \                                                                                         

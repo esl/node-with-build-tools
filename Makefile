@@ -1,4 +1,3 @@
-
 build:
-	docker build . -t bryanhuntesl/node-with-build-tools:10.23.0-alpine3.11
-	docker push bryanhuntesl/node-with-build-tools:10.23.0-alpine3.11
+	docker build . -t bryanhuntesl/node-with-build-tools:14.15.1-alpine3.12
+	docker push bryanhuntesl/node-with-build-tools:14.15.1-alpine3.12

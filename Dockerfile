@@ -13,4 +13,5 @@ RUN apk --no-cache add shadow \
     zlib \                                                                                        
     zlib-dev \                                                                                    
     file \                                                                                        
-    pkgconf
+    pkgconf \
+    git
